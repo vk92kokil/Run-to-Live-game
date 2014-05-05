@@ -387,7 +387,6 @@ class World(DirectObject):
 		#print(entries[0].getIntoNode().getName())
 		#entries[0].getIntoNode().getName().removeNode()
 		#if((entries[0].getIntoNode().getName() == "collidera")):
-			#print("maa ki chut")
 		if((entries[0].getIntoNode().getName() != "collider") and (entries[0].getIntoNode().getName() != "colliderbike") and (entries[0].getIntoNode().getName() != "colliderpara") and (entries[0].getIntoNode().getName() != "collidermag") and (entries[0].getIntoNode().getName() != "collidera")):
 			self.speed=0
 			self.cycle.setPos(startpos)
